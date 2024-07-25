@@ -1,6 +1,8 @@
 <h1 align="center">Hi 👋, I'm Mapa Ruiz</h1>
 <h3 align="center">A passionate systems engineer from Colombia</h3>
 
+
+
 - 🌱 I’m currently learning **Operating systems**
 
 - 📫 How to reach me **rodriguezr.mp@javeriana.edu.co**
