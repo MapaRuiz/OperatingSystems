@@ -3,6 +3,8 @@
 
 # Operating Systems
 
+🟧- Class: "Sistemas Operativos" 
+
 👨‍🏫- Teacher: Jhon Corredor Franco
 
 🏦- University: Pontificia Universidad Javeriana
