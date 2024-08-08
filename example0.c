@@ -1,5 +1,5 @@
 /*********************
-Autor: Mapa Rodrigue<
+Autor: Mapa Rodriguez
 Materia: Sistemas operativos
 Fecha: 18-07-24
 Tema: Introduccion al lenguaje C y los entornos
