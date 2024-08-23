@@ -24,8 +24,7 @@ int main(){
 
 char * function(char *p){
   
-  char q [strlen(p) + 1];
-  //char *q = (char *)malloc(strlen(p) + 1);
+  char *q = (char *)malloc(strlen(p) + 1);
   
   strcpy(q, p);
   
