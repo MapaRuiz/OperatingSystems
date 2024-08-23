@@ -11,8 +11,7 @@ Tema: Segunda parte de la introduccion al lenguaje C
 
 int main(int argc, char *argv[]){
   
-  int vectorPunteros[3]; //--> Vector de punteros de tipo int
-  //int *vectorPunteros[3];
+  int *vectorPunteros[3]; //--> Vector de punteros de tipo int
   int p = 40, q = 80, r = 120; //--> Variables de tipo entero
   vectorPunteros[0] = &p; //--> Apuntar a la dirección de p
   vectorPunteros[1] = &q; //--> Apuntar a la dirección de q
