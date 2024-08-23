@@ -25,9 +25,8 @@ int main(int argc, char * argv[]) {
   const int patron_size = sizeof(patron)/sizeof(int);
   int *siguiente = NULL, *anterior = NULL;
 
-  if(siguiente = (int *)malloc(patron_size *sizeof (*siguiente))){ //Asigna el vector
-  //siguiente = (int *)malloc(patron_size * sizeof(*siguiente)); // Asigna el vector
-  //if(siguiente){
+  siguiente = (int *)malloc(patron_size * sizeof(*siguiente)); // Asigna el vector
+  if(siguiente){
     memcpy(siguiente, patron, sizeof(patron)); //llena el vector
     Info_Almacenamiento(siguiente, anterior, patron_size);
   }else{
@@ -35,26 +34,26 @@ int main(int argc, char * argv[]) {
   }
   //Reasigna los valores del vector en el siguiente ciclo
   const int realloc_size[]= {10,20,30,40,50,60,70,80};
-  for(int i =0; i!= (sizeof(realloc_size)/sizeof(int); i++){
-  //for(int i =0; i!= (sizeof(realloc_size)/sizeof(int)); i++){
-    //anterior = siguiente; // Guarda la dirección anterior
-    //siguiente = (int *)realloc(siguiente, realloc_size[i] * sizeof(int)); // Reasigna la memoria
-    if((siguiente = (int*)realloc)){
-    //if(siguiente){
+      
+  for(int i =0; i!= (sizeof(realloc_size)/sizeof(int)); i++){
+    anterior = siguiente; // Guarda la dirección anterior
+    siguiente = (int *)realloc(siguiente, realloc_size[i] * sizeof(int)); // Reasigna la memoria
+    
+    if(siguiente){
       Info_Almacenamiento(siguiente, anterior, realloc_size[i]);
       assert(!memcmp(siguiente, patron, sizeof(patron)));
     }
-    //else {
+    else {
       // Si realloc falla, libera la memoria y sale del programa
-      //free(anterior);
-      //return EXIT_FAILURE;
-    //}
+      free(anterior);
+      return EXIT_FAILURE;
+    }
     
   }
 
   printf("Se libera memoria reservada \n");
-  free(patron);
-  //free(siguiente);
+
+  free(siguiente);
 
   return 0;
 }
