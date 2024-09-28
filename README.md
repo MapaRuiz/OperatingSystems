@@ -3,7 +3,7 @@
 
 # Operating Systems
 
-🟧- Subject: "Sistemas Operativos" 
+🟧- Subject: Operating Systems
 
 👨‍🏫- Teacher: Jhon Corredor Franco
 
