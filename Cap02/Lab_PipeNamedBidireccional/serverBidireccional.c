@@ -12,7 +12,7 @@ el mensaje "end", se cierra. Utiliza el archivo FIFO en "/tmp/fifo_twoway"
 para establecer la comunicación.
 *********************/
 
-#define FIFO_FILE "/tmp/fifo_twoway"  // Definición de la ruta del pipe nombrado
+#define FIFO_FILE "/tmp/fifo_twoway"  // Definición de la ruta del pipe nombrado, es temporal =)
 
 #include <stdio.h>      // Biblioteca para funciones de entrada/salida
 #include <sys/stat.h>  // Biblioteca para definiciones de estructuras de sistema
