@@ -33,9 +33,11 @@ Enviar Mensajes: En la terminal del cliente, ingresa mensajes para enviar al ser
 - `Cliente`
     Función: El cliente envía mensajes al servidor y espera respuestas. Cuando el usuario ingresa "end", el cliente cierra la conexión y finaliza.
     Comunicación: Se establece a través de un FIFO en /tmp/fifo_twoway. El cliente envía mensajes y recibe las respuestas inversas del servidor.
+    Programa "clienteBidireccional": Este programa implementa un cliente que se comunica de manera bi-direccional a través de un pipe nombrado (FIFO). El cliente envía mensajes al servidor, recibiendo respuestas hasta que el usuario ingresa "end". Al hacerlo, el cliente se cierra. Utiliza el archivo FIFO en "/tmpfifo_twoway" para establecer la comunicación.
 - `Servidor`
     Función: El servidor recibe mensajes del cliente, los invierte y envía la cadena invertida de vuelta. Se detiene cuando recibe el mensaje "end".
     Comunicación: Utiliza el mismo FIFO que el cliente. El servidor imprime el mensaje recibido y la respuesta invertida.
+    Programa "clienteBidireccional": Este programa implementa un cliente que se comunica de manera bi-direccional a través de un pipe nombrado (FIFO). El cliente envía mensajes al servidor, recibiendo respuestas hasta que el usuario ingresa "end". Al hacerlo, el cliente se cierra. Utiliza el archivo FIFO en "/tmpfifo_twoway" para establecer la comunicación.
 
 ## Notas
 - Asegúrate de tener permisos para crear y acceder al FIFO en la ruta especificada.
