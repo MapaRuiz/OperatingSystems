@@ -32,7 +32,7 @@ int main() {
     int read_bytes;            // Cantidad de bytes leídos del FIFO
 
     /* Crea el FIFO si no existe */
-    mkfifo(FIFO_FILE, S_IFIFO | 0640); // Crea el FIFO con permisos 0640
+    mkfifo(FIFO_FILE, S_IFIFO | 0640); // Crea el FIFO con permisos 0640 //2-R 4-W 1-X
     strcpy(end, "end");        // Copia la cadena "end" en la variable end
 
     // Abre el FIFO para lectura y escritura
