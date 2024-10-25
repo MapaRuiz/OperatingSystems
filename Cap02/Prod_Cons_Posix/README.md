@@ -1,7 +1,6 @@
-
 # Productor-Consumidor con POSIX Threads en C
 
-Este repositorio contiene una implementación del problema clásico de productor-consumidor utilizando **POSIX threads (pthread)** en C. Los hilos productores y consumidores acceden y modifican una variable compartida (`counter`), que representa el "almacén" de productos, sincronizándose mediante **mutex** y **variables de condición**.
+Este programa contiene una implementación del problema clásico de productor-consumidor utilizando **POSIX threads (pthread)** en C. Los hilos productores y consumidores acceden y modifican una variable compartida (`counter`), que representa el "almacén" de productos, sincronizándose mediante **mutex** y **variables de condición**.
 
 ## Estructura del Proyecto
 
