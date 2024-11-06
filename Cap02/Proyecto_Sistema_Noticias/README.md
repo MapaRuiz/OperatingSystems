@@ -3,9 +3,8 @@ Implementación de un sistema de noticias usando el patrón Publicador/Suscripto
 
 ## Estructura del Proyecto
 - `src/`: Archivos fuente.
-- `docs/`: Documentación y manual de usuario.
 - `data/`: Archivos de noticias de prueba.
-- `output/logs/`: Archivos de logs de ejecución.
+- `build/`: Objetos guardados al ejecutar make.
 
 ## Compilación y Ejecución
 1. `make` para compilar los programas.
