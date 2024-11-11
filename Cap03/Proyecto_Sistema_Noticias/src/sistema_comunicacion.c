@@ -1,3 +1,12 @@
+/**************************************************************
+		Pontificia Universidad Javeriana
+	Autor: Daniel Castro, Maria Ruiz, Daniel Gonzalez, Eliana Cepeda
+	Fecha: Noviembre 2024
+	Materia: Sistemas Operativos
+	Tema: Este proyecto implementa un sistema de distribución de noticias usando procesos en C 
+		y comunicación mediante pipes nominales (FIFOs). El sistema permite que un publicador envíe 
+		noticias a un sistema de comunicación, el cual las distribuye a los suscriptores interesados en temas específicos.
+****************************************************************/
 #include <stdio.h>              // Biblioteca estándar para funciones de entrada/salida
 #include <stdlib.h>             // Biblioteca estándar para funciones generales de C
 #include <string.h>             // Biblioteca para manejo de cadenas de caracteres
