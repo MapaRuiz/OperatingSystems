@@ -1,7 +1,3 @@
-Aquí tienes un README detallado para un repositorio que contiene estos archivos, explicando cómo funciona el benchmarking y cómo utilizar cada script:
-
----
-
 # Benchmarking de Multiplicación de Matrices con Hilos POSIX (Pthreads)
 
 Este proyecto evalúa el rendimiento de dos algoritmos de multiplicación de matrices cuadradas (`clásico` y `transpuesta`) implementados en C con hilos POSIX (`Pthreads`). Ambos programas ejecutan multiplicaciones de matrices de varios tamaños con diferentes cantidades de hilos y miden el tiempo de ejecución para cada combinación.
