@@ -154,9 +154,7 @@ int main(int argc, char *argv[]) {
                     buffer[bytes_read] = '\0';   // Agrega terminador nulo a la cadena leída
                     printf("News received from publisher: %s\n", buffer);
                     last_news_time = time(NULL); // Actualiza el tiempo de la última noticia
-                    almacenar_noticia(buffer);   // Almac
-
-ena la noticia
+                    almacenar_noticia(buffer);   // Almacena la noticia
 
                     // Distribuye la noticia a todos los suscriptores
                     for (int i = 0; i < num_suscriptores; i++) {
