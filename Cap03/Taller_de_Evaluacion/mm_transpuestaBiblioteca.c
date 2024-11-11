@@ -1,3 +1,14 @@
+/**************************************************************
+		Pontificia Universidad Javeriana
+	Autor: Daniel Castro, Maria Ruiz, Daniel Gonzalez, Eliana Cepeda
+	Fecha: Noviembre 2024
+	Materia: Sistemas Operativos
+	Tema: Taller de Evaluación de Rendimiento
+	Fichero: fuente de multiplicación de matrices NxN por hilos.
+	Objetivo: Evaluar el tiempo de ejecución del 
+		      algoritmo clásico de multiplicación de matrices.
+			  Se implementa con la Biblioteca POSIX Pthreads
+****************************************************************/
 #include <stdio.h>               // Incluye funciones estándar de entrada/salida
 #include <pthread.h>             // Incluye la biblioteca de hilos POSIX
 #include <unistd.h>              // Incluye funciones POSIX, como sleep y usleep
