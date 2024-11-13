@@ -1,3 +1,14 @@
+/**************************************************************
+		Pontificia Universidad Javeriana
+	Autor: Daniel Castro, Maria Ruiz, Daniel Gonzalez, Eliana Cepeda
+	Fecha: Noviembre 2024
+	Materia: Sistemas Operativos
+	Tema: Taller de Evaluación de Rendimiento
+	Fichero: fuente de multiplicación de matrices NxN por hilos.
+	Objetivo: Evaluar el tiempo de ejecución del 
+		      algoritmo clásico de multiplicación de matrices.
+			  Se implementa con la Biblioteca POSIX Pthreads
+****************************************************************/
 #ifndef MM_CLASICOBIBLIOTECA_H
 #define MM_CLASICOBIBLIOTECA_H
 
