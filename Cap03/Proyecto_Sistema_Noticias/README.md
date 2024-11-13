@@ -8,7 +8,8 @@ Este proyecto implementa un sistema de distribución de noticias usando procesos
   - **`publicador.c`**: Programa que lee noticias desde un archivo y las envía al sistema de comunicación.
   - **`suscriptor.c`**: Programa que permite a los usuarios suscribirse a temas específicos y recibir noticias relacionadas.
   - **`sistema_comunicacion.c`**: Programa que gestiona la recepción de noticias y las distribuye a los suscriptores interesados.
-  - **`utils.h`**: Archivo de cabecera con funciones de utilidad, como la validación de formato de noticias.
+  - **`SCBiblioteca.h`** y **`SCBiblioteca.c`**: Librería que proporciona funciones para almacenar, enviar, y gestionar las noticias y suscriptores.
+  - **`utils.h`** y **`utils.c`**: Librería de utilidades con funciones como la validación de formato de noticias.
 - `data/`: Carpeta que contiene archivos de datos, como `noticias1.txt`, con las noticias para el programa `publicador`.
 - `build/`: Carpeta donde se almacenan los archivos objeto (`.o`) generados y los ejecutables resultantes.
 
@@ -108,7 +109,7 @@ C: Científicos descubren una nueva especie de insecto.
 S: Robo en una joyería del centro comercial.
 ```
 
-Cada línea representa una noticia que comienza con una letra en mayúscula (el tipo de noticia) seguida de `:` y el contenido de la noticia.
+Cada línea representa una noticia que comienza con una letra en mayúscula (el tipo de noticia) seguida de `:` y el contenido de la noticia, terminando con un punto (`.`).
 
 ## Ejemplo Completo de Flujo de Trabajo
 
